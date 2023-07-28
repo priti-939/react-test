@@ -6,7 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.login-div{
+  margin:7% 0%;
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 50%;
+  display: grid;
+  border-radius: 8px;
+}
+.main{
+  margin-top:50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar{
+  background-color: navy;
+  color: white;
+  height: 50px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
